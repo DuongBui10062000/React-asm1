@@ -1,0 +1,54 @@
+.background {
+  background-color: #f59f00;
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 40rem;
+}
+
+.search-form {
+  line-height: 2rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.col label {
+  font-size: 0.8rem;
+  color: #495057;
+}
+
+.options span {
+  font-size: 0.5rem;
+}
+
+.option {
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.title {
+  font-size: 2rem;
+  color: #495057;
+}
+
+.search-form input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.big-input {
+  height: 3rem;
+}
+
+@media (max-width: 950px) {
+  .background {
+    max-width: 45rem;
+    margin: 0 auto;
+  }
+}

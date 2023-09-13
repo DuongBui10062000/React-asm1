@@ -1,0 +1,49 @@
+.title {
+  font-size: 2.6rem;
+  color: white;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
+
+.header {
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+
+.form {
+  transform: translate(0, 50%);
+}
+
+.background {
+  width: 100%;
+  background-color: rgb(25, 99, 226);
+}
+
+@media (max-width: 950px) {
+  .form {
+    transform: translate(0, 20%);
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    padding: 0;
+  }
+
+  .header {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .btn {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

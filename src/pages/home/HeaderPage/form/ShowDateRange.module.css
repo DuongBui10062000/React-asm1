@@ -1,0 +1,12 @@
+.calendar-popup {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform: translate(-50%, 3rem);
+  border: 2px solid #f76707;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 100%;
+}

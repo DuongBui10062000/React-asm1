@@ -1,0 +1,31 @@
+label {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+  color: #868e96;
+}
+
+.form-input {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  border: 3px solid #f3be5d;
+  font-size: 1.8rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 13.75rem;
+}
+
+@media (max-width: 950px) {
+  .form-input {
+    display: flex;
+    flex-direction: column;
+  }
+}

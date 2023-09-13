@@ -1,0 +1,22 @@
+.form-sign-up {
+  display: flex;
+  gap: 1rem;
+  width: 30%;
+}
+
+.email-input {
+  width: 70%;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .form-sign-up {
+    flex-direction: column;
+  }
+
+  .email-input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,19 @@
+.content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 950px) {
+  .content-list {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .content-list {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

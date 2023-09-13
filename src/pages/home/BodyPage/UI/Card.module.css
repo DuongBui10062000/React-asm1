@@ -1,0 +1,7 @@
+.card:hover {
+  transform: translate(0, -10px);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  border-radius: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
